@@ -6,5 +6,5 @@ En este README exploraremos algunos aspectos clave sobre Nginx, incluyendo
 - **[Diferencias con Apache](Diferencias.md)**  
 - **Esquema de red** (con un servidor con tarjeta interna y externa)  
 - **[Instalación](Instalación.md)**  
-- **Casos prácticos**  
+- **[Casos prácticos](CasosPracticos.md)**  
 - **Referencias**  
