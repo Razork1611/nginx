@@ -9,4 +9,4 @@ Algunas de sus características principales incluyen:
 - **Soporte para HTTPS**, compresión y optimización de contenido.
 - **Uso eficiente de memoria y procesamiento**, lo que lo hace más ligero que alternativas como Apache.
 
-Gracias a su rendimiento y flexibilidad, Nginx es ampliamente utilizado por grandes empresas y plataformas como **Netflix, Airbnb y WordPress**.
+Gracias a su rendimiento y flexibilidad, Nginx es ampliamente utilizado por grandes empresas y plataformas como Netflix, Airbnb y WordPress.
