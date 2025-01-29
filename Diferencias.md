@@ -2,7 +2,7 @@
 
 Tiene muchas diferencias en las que destacaremos las siguiente suq everemos a continuación:
 
-# Arquitectura
+## Arquitectura
 **Nginx** usa un modelo basado en eventos y asíncrono, lo que le permite manejar múltiples conexiones de manera eficiente. **Apache**, en cambio, se basa en procesos o hilos, lo que puede aumentar el consumo de recursos en escenarios de alta concurrencia.
 
 ## Rendimiento
