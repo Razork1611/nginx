@@ -3,7 +3,7 @@
 En este README exploraremos algunos aspectos clave sobre Nginx, incluyendo  
 
 - **[¿Qué es Nginx?](QuéesNginx.md)**
-- **Comparativa con Apache**  
+- **[Diferencias con Apache](Diferencias.md)**  
 - **Esquema de red** (con un servidor con tarjeta interna y externa)  
 - **Instalación**  
 - **Casos prácticos**  
