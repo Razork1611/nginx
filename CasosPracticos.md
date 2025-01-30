@@ -28,7 +28,7 @@ Para cambiar esto tenemos que entrar en el fichero de la imagen y lo personaliza
 
 ![image](https://github.com/user-attachments/assets/a891b5d3-00f5-477b-9637-d53ad0699fc1)
 
-Luego de eso, reniciamos el nginx con el comando 'sudo systemctl restart nginx' y volvemos a buscarlo en el buscardor.
+Luego de eso, reiniciamos el nginx con el comando 'sudo systemctl restart nginx' y volvemos a buscarlo en el buscador.
 
 ![image](https://github.com/user-attachments/assets/526a4c9a-8457-4807-b068-e37a4f546e4a)
 
@@ -43,7 +43,7 @@ Segundo, creamos una página de inicio para cada uno, usando los siguientes coma
 
 ![image](https://github.com/user-attachments/assets/55cae44f-3fb2-4409-be5c-e6b6a02adaf1)
 
-Tercero, creamos los archivos de configuración para cada sitio web usmaos los siguientes comando para empezar a crear el archivo y ponemos en cada uno de ellos lo mismo identicamente que en las imagenes. sudo nano /etc/nginx/sites-available/web1            sudo nano /etc/nginx/sites-available/web2
+Tercero, creamos los archivos de configuración para cada sitio web usamos los siguientes comandos para empezar a crear el archivo y ponemos en cada uno de ellos lo mismo idénticamente que en las imágenes. sudo nano /etc/nginx/sites-available/web1            sudo nano /etc/nginx/sites-available/web2
 
 
 ![image](https://github.com/user-attachments/assets/35628d14-f629-4dc3-b07c-6c965d2336be)
@@ -61,7 +61,7 @@ Usamos el siguiente comando para reiniciar el servicio 'sudo systemctl restart n
 
 Quinto, simular los dominios en el archivo /etc/hosts
 
-Entramos al archivo con un nano y ponemos las 2 lineas en las que salen web1 y web2 al igual que en la imagen.
+Entramos al archivo con un nano y ponemos las 2 líneas en las que salen web1 y web2 al igual que en la imagen.
 
 ![image](https://github.com/user-attachments/assets/98ac897d-81fd-4de1-9dfa-816ac131e1c3)
 
@@ -74,7 +74,7 @@ Sexto, probar a entrar a los sitios web, para ello entramos al buscador y ponemo
 
 **f)** Autentificación, Autorización y Control de acceso: queremos acceder a la web 1 desde una red interna y externa, y a la web2 solo desde una red interna.
 
-Para este ejercicio en el fichero  > nano /etc/nginx/sites-available/web1 <  no habría que cambaiar nada, en cambio en el > nano /etc/nginx/sites-available/web2 < si abría que cambiar par que no se pueda acceder desde una red externa, para ello entramos en él y aplicamos lo mismo que en la foto a continuación.
+Para este ejercicio en el fichero  > nano /etc/nginx/sites-available/web1 <  no habría que cambiar nada, en cambio en el > nano /etc/nginx/sites-available/web2 < si habría que cambiar para que no se pueda acceder desde una red externa, para ello entramos en él y aplicamos lo mismo que en la foto a continuación.
 
 ![image](https://github.com/user-attachments/assets/ee86e487-2f18-410d-83f6-4698090fc80a)
 
@@ -93,7 +93,7 @@ Desde la red externa.
 Me da error.
 
 
-**g)** Autentificación, Autorización y Control de acceso: Configura una autentificación básica. Sólo puede acceder usuarios válidos.
+**g)** Autentificación, Autorización y Control de acceso: Configura una autenticación básica. Sólo pueden acceder usuarios válidos.
 
 Entramos en el archivo de web1 > nano /etc/nginx/sites-available/web1 < y lo modificamos al igual que en la foto a continuación
 
@@ -122,7 +122,7 @@ aplicar los cambios: sudo nginx -t
 Reiniciar: sudo systemctl restart nginx
 
 
-**i)** Seguridad: Configura el sitio virtual www.web1.org para que el acceso sea seguro, hemplear el HTTPS.
+**i)** Seguridad: Configura el sitio virtual www.web1.org para que el acceso sea seguro, emplear el HTTPS.
 
 Entramos en el archivo de web1 > nano /etc/nginx/sites-available/web1 < y lo modificamos al igual que en la foto a continuación.
 
