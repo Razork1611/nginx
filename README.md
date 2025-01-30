@@ -1,6 +1,6 @@
 # Introducción a Nginx  
 
-En este README exploraremos algunos aspectos clave sobre Nginx, incluyendo  
+En este README exploraremos algunos aspectos clave sobre Nginx, incluyendo:  
 
 - **[¿Qué es Nginx?](QuéesNginx.md)**
 - **[Diferencias con Apache](Diferencias.md)**  
